@@ -1,0 +1,17 @@
+[package]
+name = "project-4"
+version = "0.1.0"
+authors = ["Oleksandr Litus <???>", "Vadym Matviichuk <???>"]
+edition = "2018"
+
+[[bin]]
+name = "3700send"
+path = "src/sender.rs"
+
+[[bin]]
+name = "3700recv"
+path = "src/listener.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

@@ -1,0 +1,915 @@
+
+LISTENER: starting init...
+SENDER: initialized seq: 0
+LISTENER: parsed local port: 30971
+LISTENER: created local addr: 127.0.0.1:30971
+LISTENER: opened socket: 127.0.0.1:30971
+LISTENER: finished init!
+
+LISTENER: entered listen data loop...
+LISTENER: waiting for packet
+
+SENDER: starting init...
+SENDER: initialized seq: 0
+SENDER: set timeout: sec: 5, nsec: 500000000
+SENDER: opened socket: 0.0.0.0:41677
+SENDER: parsed remote addr: 127.0.0.1:30971
+SENDER: finished init!
+
+SENDER: entered send data loop...
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(1) == seq(1)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: duplicate received with seq: 1, current seq: 2
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(2) == seq(2)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+SENDER: read packet of size: 9
+SENDER: ack(2) == seq(2)
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: duplicate received with seq: 2, current seq: 3
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(3) == seq(3)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+SENDER: read packet of size: 9
+SENDER: ack(3) == seq(3)
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(4) == seq(4)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(5) == seq(5)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(6) == seq(6)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(7) == seq(7)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(8) == seq(8)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(9) == seq(9)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(10) == seq(10)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(11) == seq(11)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(12) == seq(12)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(13) == seq(13)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(14) == seq(14)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(15) == seq(15)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(16) == seq(16)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(17) == seq(17)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(18) == seq(18)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(19) == seq(19)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(20) == seq(20)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(21) == seq(21)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(22) == seq(22)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(23) == seq(23)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(24) == seq(24)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(25) == seq(25)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(26) == seq(26)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(27) == seq(27)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(28) == seq(28)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(29) == seq(29)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(30) == seq(30)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(31) == seq(31)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(32) == seq(32)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(33) == seq(33)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(34) == seq(34)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(35) == seq(35)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(36) == seq(36)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+SENDER: read packet of size: 9
+SENDER: ack(36) == seq(36)
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(37) == seq(37)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(38) == seq(38)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(39) == seq(39)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(40) == seq(40)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+SENDER: read packet of size: 9
+SENDER: ack(40) == seq(40)
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(41) == seq(41)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(42) == seq(42)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(43) == seq(43)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(44) == seq(44)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(45) == seq(45)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(46) == seq(46)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(47) == seq(47)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(48) == seq(48)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(49) == seq(49)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: duplicate received with seq: 49, current seq: 50
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(50) == seq(50)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+SENDER: read packet of size: 9
+SENDER: ack(50) == seq(50)
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(51) == seq(51)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(52) == seq(52)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(53) == seq(53)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(54) == seq(54)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(55) == seq(55)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(56) == seq(56)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(57) == seq(57)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(58) == seq(58)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(59) == seq(59)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+SENDER: read packet of size: 9
+SENDER: ack(59) == seq(59)
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(60) == seq(60)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(61) == seq(61)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(62) == seq(62)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: duplicate received with seq: 62, current seq: 63
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(63) == seq(63)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+SENDER: read packet of size: 9
+SENDER: ack(63) == seq(63)
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(64) == seq(64)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(65) == seq(65)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+SENDER: read packet of size: 9
+SENDER: ack(65) == seq(65)
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(66) == seq(66)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(67) == seq(67)
+SENDER: send data block and received ack
+SENDER: read data block size: 1463, is_eof: false
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 1472
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 1472 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(68) == seq(68)
+SENDER: send data block and received ack
+SENDER: read data block size: 516, is_eof: true
+SENDER: created new data packet from data block
+SENDER: send data packet of size: 525
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received data packet of size: 525 from: 127.0.0.1:41677
+LISTENER: printing data to stdout...
+LISTENER: send ack packet
+LISTENER: waiting for packet
+SENDER: read packet of size: 9
+SENDER: ack(69) == seq(69)
+SENDER: send data block and received ack
+SENDER: finished data loop!
+
+SENDER: ending connection...
+SENDER: send fin packet
+SENDER: waiting for ack packet
+LISTENER: peeked header of size: 9
+LISTENER: received fin packet of from: 127.0.0.1:41677
+LISTENER: finished listen loop!
+
+LISTENER: ending connection...
+LISTENER: send ack packet
+LISTENER: send fin packet
+SENDER: read packet of size: 9
+SENDER: waiting for ack packet
+SENDER: read packet of size: 9
+SENDER: send ack packet
+SENDER: connection closed!
+LISTENER: peeked header of size: 9
+LISTENER: connection closed!
+Data match: Yes
+Msg Size: 100000 B
+Time elapsed: 1911.401 ms
+Packets sent: 155
+Data on Wire: 113757 B
